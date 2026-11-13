@@ -95,6 +95,8 @@ Found a freeze, a crash or untranslated text? Please [open an issue](../../issue
 - Lesson results ("Also, Tanabe got thrown out of class.") and the ending captions with the player's name and rank are cleaned up.
 - Bulletin board: "Line Officer Roster" / "Techno Officer Roster" titles, plus several roster and notice lines corrected and re-broken.
 - Proposal menu: "Strategy meeting!" and "Let's all try hard" were too long for their menu box and wrapped onto extra lines. They are now "Strategy meeting" and "Let's try hard!"; three other long proposal names were shortened the same way.
+- Natural-English pass: every dialogue line was read twice more for how it sounds, and about 4,650 lines were reworded. Stock translationese ("It can't be helped", "Is that so?") is replaced with what each character would actually say, stiff word order is loosened, banter is sharper, and the teenagers get period-appropriate slang. Character voices stay distinct: Mai formal and without contractions, Yoko's gentle broken English, Mibuya prim, the Kumamoto drawl, and Mori's country dialect when she slips into it.
+- Meeting order table headers line up with their columns; the gear maintenance label "Comms" is now "Comm".
 - Final full re-read of the whole script against the Japanese (17,595 event blocks and about 27,000 menu, chatter and battle lines): 34 real mistranslations and about 250 smaller wording problems fixed. The ending captions no longer leave a gap before punctuation after the player's name.
 
 <details>
