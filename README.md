@@ -7,6 +7,7 @@ An English fan translation patch for **Koukidou Gensou: Gunparade March** (é«˜æ©
 ![Title screen](0_title.png) ![Dialogue](1_dialogue.png)
 ![Field](2_field.png) ![Battle menu](3_battle_menu.png)
 ![Skill list](4_skills.png)
+![Opening movie logo](5_opening_logo.png) ![Reaction menu](6_reaction.png)
 
 ## About this translation
 
