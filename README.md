@@ -1,20 +1,37 @@
-# Koukidou Gensou: Gunparade March — English Patch (MTL)
+<h1 align="center">Koukidou Gensou: Gunparade March<br>English Patch (MTL)</h1>
 
-An English fan translation patch for **Koukidou Gensou: Gunparade March** (高機動幻想ガンパレード・マーチ), the 2000 PlayStation game by Alfa System / Sony Computer Entertainment (Japan, SCPS-10136).
+<p align="center">
+An English fan translation patch for <b>Koukidou Gensou: Gunparade March</b> (高機動幻想ガンパレード・マーチ),<br>
+the 2000 PlayStation game by Alfa System / Sony Computer Entertainment (Japan, SCPS-10136).
+</p>
 
-**Latest release: [v2.0](../../releases/latest)**
+<p align="center">
+<a href="../../releases/latest"><b>⬇ Download the latest release (v2.0)</b></a>
+&nbsp;·&nbsp; <a href="#how-to-apply">How to apply</a>
+&nbsp;·&nbsp; <a href="#changelog">Changelog</a>
+&nbsp;·&nbsp; <a href="../../issues">Report a problem</a>
+</p>
 
-![Title screen](0_title.png) ![Dialogue](1_dialogue.png)
-![Field](2_field.png) ![Battle menu](3_battle_menu.png)
-![Skill list](4_skills.png)
-![Opening movie logo](5_opening_logo.png) ![Reaction menu](6_reaction.png)
+<p align="center"><img src="screenshots/title.png" width="49%" alt="Title screen"> <img src="screenshots/opening_logo.png" width="49%" alt="Opening movie logo in English"></p>
+
+## Screenshots
+
+| | |
+|:---:|:---:|
+| <img src="screenshots/dialogue.png" alt="Conversation with Mai Shibamura"> | <img src="screenshots/classroom.png" alt="Classroom event with Setsuko Honda"> |
+| Conversations | Story events |
+| <img src="screenshots/field.png" alt="Walking around the school"> | <img src="screenshots/status.png" alt="Status screen"> |
+| School life | Status screen |
+| <img src="screenshots/combat_training.png" alt="Combat training briefing"> | <img src="screenshots/battle_menu.png" alt="Battle command menu"> |
+| Combat training | Battle commands |
 
 ## About this translation
 
 This is an **independent, machine-assisted (MTL) translation**, made from scratch from the original Japanese disc. It uses its own translation scripts and custom tools to handle the event archive, the program overlays and the font. It is not based on any other translation.
 
-It is **not related to Asterhex's human translation** of Gunparade March, which is a separate project. For human-quality English, that translation is the better choice:
-➡️ https://github.com/phukyes/Gunparade-March-English
+> [!NOTE]
+> This project is **not related to Asterhex's human translation** of Gunparade March, which is a separate project. For human-quality English, that translation is the better choice:
+> **https://github.com/phukyes/Gunparade-March-English**
 
 Because this is a machine-assisted translation, expect some awkward phrasing and the occasional mistranslation. Bug reports are welcome.
 
@@ -31,9 +48,10 @@ Some long names and labels are shortened to fit the game's fixed-size boxes (for
 
 ## How to apply
 
-You need your own disc image of the Japanese release, as a single `.bin` + `.cue`. **No game data is included or distributed here.**
+> [!IMPORTANT]
+> You need your own disc image of the Japanese release, as a single `.bin` + `.cue`. **No game data is included or distributed here.**
 
-| | |
+| Original image | |
 |---|---|
 | File | `Koukidou Gensou - Gunparade March (Japan).bin` |
 | Size | 440,372,016 bytes |
@@ -56,7 +74,9 @@ This matches the Redump dump. If your image doesn't match, the patch won't apply
 
 - Tested in PCSX-ReARMed. It should work in DuckStation and other accurate emulators.
 - Memory card saves work normally. Emulator save states from a different patch version won't.
-- **SwanStation (including PS5):** if you see noise or garbage in the right half of dialogue boxes, turn on anti-aliasing (MSAA) or set the GPU renderer to Software in Core Options. This is an emulator rendering quirk, not a problem with the patch.
+
+> [!TIP]
+> **SwanStation (including PS5):** if you see noise or garbage in the right half of dialogue boxes, turn on anti-aliasing (MSAA) or set the GPU renderer to Software in Core Options. This is an emulator rendering quirk, not a problem with the patch.
 
 ## Testing
 
@@ -69,27 +89,31 @@ Found a freeze, a crash or untranslated text? Please [open an issue](../../issue
 
 ## Changelog
 
-**v2.0**
+### v2.0
 - Names with an odd number of letters no longer leave a half-cell gap after them ("Iwata , Mai", "Yoshino  became"). The text printer now advances only part of a cell after the padded last letter, so inserted names, coloured words and values sit next to the following text. Numbers inserted into sentences are no longer spread out ("Love +1 5 ," now reads "Love +15,").
 - The Alfa System logo movie and the title logo at the end of the opening movie are in English (re-encoded movie frames).
 - Lesson results ("Also, Tanabe got thrown out of class.") and the ending captions with the player's name and rank are cleaned up.
 - Bulletin board: "Line Officer Roster" / "Techno Officer Roster" titles, plus several roster and notice lines corrected and re-broken.
+- Proposal menu: "Strategy meeting!" and "Let's all try hard" were too long for their menu box and wrapped onto extra lines. They are now "Strategy meeting" and "Let's try hard!"; three other long proposal names were shortened the same way.
 - Final full re-read of the whole script against the Japanese (17,595 event blocks and about 27,000 menu, chatter and battle lines): 34 real mistranslations and about 250 smaller wording problems fixed. The ending captions no longer leave a gap before punctuation after the player's name.
 
-**v1.2.2**
+<details>
+<summary><b>Older versions (v0.7 to v1.2.2)</b></summary>
+
+#### v1.2.2
 - Quality inspection pass: every event script and every menu, chatter and proposal line re-read against the Japanese twice, with reviewers checking each other's work. About 2,000 lines improved (mistranslations, character voice, gender-neutral player address, consistent menu names, typos).
 - No more double spaces before inserted names and places in most text ("let's go to  Ajinoren" is fixed).
 - Text boxes break more naturally (no one-word leftover boxes; numbers stay with their units).
 - The relationship-up name box is also fixed in normal play; the gaze prompt, bond-up message and impression prompt read cleanly.
 - Side-story date captions use one format; chatter stage directions use one tense; the prologue and endings got a final polish.
 
-**v1.2.1**
+#### v1.2.1
 - Relationship-up window: the partner name box is wider, so long names show in full ("<-Higashihara" instead of "ihara").
 - In-game manual (the Library's "How to..." books): removed stray gaps before brackets and full stops after highlighted words.
 - Checked on screen: the policy meeting, the class schedule board, the combat training tutorial, the help books, the court-martial game over, and the end-of-game epilogue and staff credits.
 - Known issue: names with an odd number of letters are followed by a small gap when inserted into a sentence ("Iwata , Mai"). This comes from the two-letters-per-cell font and can't be fixed with text changes alone.
 
-**v1.2**
+#### v1.2
 - Translation refinement: the whole script was re-read against the Japanese; about 700 lines improved in events, chatter and system text (mistranslations, speaker voice, gender-neutral address for the player, consistent battle terms).
 - Event dialogue that continued into an extra text box (voiced lines) is now in English.
 - More graphics in English: Manual-mode stat tags, mood banners, the maintenance header, battle tutorial slides, the schedule and the ending rank screen, among others.
@@ -98,7 +122,7 @@ Found a freeze, a crash or untranslated text? Please [open an issue](../../issue
 - Policy meeting: the "Call on whom?" vote list now shows short names on one row each, and the armour-type agenda choices fit their menu.
 - Known issues: in very long games (about 90+ battles by May, e.g. taking Honda's field test daily) a battle can stop on a "maphit.cc ... Illegal Char ID:255" debug screen. This is a memory leak in the original game (it happens on the Japanese disc too); reload your day save.
 
-**v1.1**
+#### v1.1
 - Fixed the endings: in v1.0.1 the ending epilogues and the staff roll could not finish (the text ran past its end, then the game froze or crashed). The patch tools had damaged the control codes that end each ending text. All endings now play through to the title screen. The history epilogue ("Sep. 1999: ...") is now in English too.
 - Translation refinement: about 760 lines in events, chatter, proposals and menus re-checked against the Japanese and improved.
 - 51 event pictures with Japanese writing on them are now in English.
@@ -106,31 +130,33 @@ Found a freeze, a crash or untranslated text? Please [open an issue](../../issue
 - Save files are titled "File1 <name> 3/13" in the Load list (saves from older versions keep their Japanese title).
 - Coloured words no longer leave a double gap after them; six untranslated weapon names on the maintenance screen are translated.
 
-**v1.0.1**
+#### v1.0.1
 - Fixed a freeze in the hangar when changing a Shikon's weapon with the cursor on the Giant Bazooka (present since v0.7). The patch had overwritten the bazooka's item number in the maintenance weapon table.
 - Fixed "de" showing up as "..." in some text (item descriptions such as the Adelaide Assault Rifle, conversations, proposals, battle messages). The game draws one particular byte as an ellipsis, and the patch had been using it for the letter pair "de".
 
-**v1.0**
+#### v1.0
 - Full review of the whole script: every event and all menu, battle, conversation and proposal text re-checked against the Japanese. About 470 lines fixed (meaning errors, wrong speakers, flipped negations, typos, stiff phrasing).
 - Names and terms made consistent between events and menus (Shikon tuning stats, "Leap", "Barrage", "Class Rep", the Gunparade March song refrain, Akira's name in item names).
 - Fixed line breaks in the Shikon Unit selection and work results menus.
 
-**v0.9.1**
+#### v0.9.1
 - Maintenance screen: removed a stray text code in front of "SMG" in the weapon list.
 - Maintenance screen: the 40mm anti-aircraft gun was mislabeled "20mm".
 - Checked every translated file against the memory it loads into; all fit.
 
-**v0.9**
+#### v0.9
 - Shortened two NPC chatter files to fit the game's memory limit, with a build check for all chatter files.
 
-**v0.8**
+#### v0.8
 - Fixed two story events that could freeze the game.
 - Bulletin board name boxes now show readable short names instead of cut-off fragments.
 - The Skill List grid now lines up, using 4-letter skill names.
 - Translated some debug menus that were still in Japanese.
 
-**v0.7**
+#### v0.7
 - First public release.
+
+</details>
 
 ## Translation source
 
