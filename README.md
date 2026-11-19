@@ -138,7 +138,7 @@ Found a freeze, a crash or untranslated text? Please [open an issue](../../issue
 - Full names no longer overflow or get cut off in the "Where is...?" list, the Heart Map, status window headers, the lesson partner list, the officer roster, the socks page, the post-clear Character Select and memory card save titles.
 - "End the day. OK?" on the area map, the Sock Hunter episode title cards and the battle sector platoon pop-up are now in English.
 - Policy meeting: the "Call on whom?" vote list now shows short names on one row each, and the armour-type agenda choices fit their menu.
-- Known issues: in very long games (about 90+ battles by May, e.g. taking Honda's field test daily) a battle can stop on a "maphit.cc ... Illegal Char ID:255" debug screen. This is a memory leak in the original game (it happens on the Japanese disc too); reload your day save.
+- Known issue: the original game leaks a little memory at every battle and only gets it back when the console is reset. After roughly 50 to 90 battles in one sitting (for example taking Honda's field test over and over) the game can stop on an "Illegal Char ID:255" debug screen when a battle starts or when a new character walks into view. The Japanese disc does the same. Reset and load your last save; restarting every so often in long sessions avoids it.
 
 #### v1.1
 - Fixed the endings: in v1.0.1 the ending epilogues and the staff roll could not finish (the text ran past its end, then the game froze or crashed). The patch tools had damaged the control codes that end each ending text. All endings now play through to the title screen. The history epilogue ("Sep. 1999: ...") is now in English too.
