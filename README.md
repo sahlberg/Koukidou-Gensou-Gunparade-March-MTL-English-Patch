@@ -84,7 +84,7 @@ Each release is checked by:
 - loading every one of the 1,183 event scripts in an emulator and comparing the result against the original Japanese disc;
 - long automated play sessions (menus, school days, battles, dialogue) that watch for freezes;
 - for v1.2, a played-through game from the first day to mid-May on an automated pilot, and screen-by-screen checks of the menus and windows.
-- for v2.0, a second run of every event from a save made on the release disc, and about 1.4 million inputs of free play from 32 saves (four player characters, 3/05 to 5/10), two new games and five unbroken sessions of 100,000 to 250,000 inputs. The only stop was the original game's memory leak after 59 battles in one sitting (see Known issue); no other freezes or crashes. A game saved during that play reloads on a fresh boot.
+- for v2.0, a second run of every event from a save made on the release disc, and about 1.6 million inputs of free play from 32 saves (four player characters, 3/05 to 5/10), two new games and six unbroken sessions of 100,000 to 350,000 inputs. The only stop was the original game's memory leak after 59 battles in one sitting (see Known issue); no other freezes or crashes. A game saved during that play reloads on a fresh boot.
 
 Found a freeze, a crash or untranslated text? Please [open an issue](../../issues) with the in-game date, where you were and a screenshot if you can.
 
